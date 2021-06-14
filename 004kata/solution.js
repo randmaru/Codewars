@@ -12,14 +12,14 @@
 // Так же не забудем добавить проверку массива, чтоб возвращать то, что просят в условии.
 
 function solution(array) {
-  function compareNumbers(a, b) {
-    return a - b
-  }
-  if (array != null) {
-    return array.sort(compareNumbers)
-  } else {
-    return []
-  }
+	function compareNumbers(a, b) {
+		return a - b;
+	}
+	if (array != null) {
+		return array.sort(compareNumbers);
+	} else {
+		return [];
+	}
 }
 
 // Прошел тесты, и потом прошел какие-то рандомные тесты. А я жоский :D

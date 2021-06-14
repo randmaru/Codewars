@@ -12,9 +12,9 @@
 // Теперь надо использовать цикл. Сначала хотел использовать do/while. Но в статье, которую я прочитал было написано про цикл for - воспользуюсь им.
 
 function preFizz(n) {
-  let array = []
-  for (let count = 1; count <= n; count++) {
-    array.push(count)
-  }
-  return array
+	let array = [];
+	for (let count = 1; count <= n; count++) {
+		array.push(count);
+	}
+	return array;
 }

@@ -3,5 +3,5 @@
 // Решил дописать return(теперь смахивает на реакт :D)
 
 function multiply(a, b) {
-  return a * b
+	return a * b;
 }

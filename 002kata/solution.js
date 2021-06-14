@@ -9,7 +9,7 @@
 // Заменяем в нём 'абв' на s, а чисто повторений (2) на n.
 
 function repeatStr(n, s) {
-  return ({ toString: () => s, repeat: String.prototype.repeat }).repeat(n);
+	return { toString: () => s, repeat: String.prototype.repeat }.repeat(n);
 }
 
 // Тест проходит. Задачка решена :)

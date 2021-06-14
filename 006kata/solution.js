@@ -16,11 +16,11 @@
 // Замечательно, функция проходит тест. Осталось узнать насколько позорно я написал код :D
 
 function maskify(cc) {
-  if (cc.length > 4) {
-    return (cc.slice(0, -4)).replace(/./g, '#') + cc.slice(-4)
-  } else {
-    return cc
-  }
+	if (cc.length > 4) {
+		return cc.slice(0, -4).replace(/./g, "#") + cc.slice(-4);
+	} else {
+		return cc;
+	}
 }
 
 // Оказывается довольно таки много народа написало так же как и я :D Однако у всех упущена проверка длинны массива.

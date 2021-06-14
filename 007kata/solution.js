@@ -10,9 +10,9 @@
 // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
 
 function toCamelCase(str) {
-  return str.replace(/[-_]\w/gi, function (match) {
-    return match.charAt(1).toUpperCase()
-  })
+	return str.replace(/[-_]\w/gi, function (match) {
+		return match.charAt(1).toUpperCase();
+	});
 }
 
 // Отлично, тесты проходит. Единственное что можно переделать, так это регулярное выражение выразить в переменной, а так всё вполне ок.

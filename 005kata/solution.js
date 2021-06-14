@@ -19,8 +19,8 @@
 // Не стерпел и нашел решение в гугле, там всё описано, но как бы хочется самому что-нибудь прикинуть...
 
 function getCount(str) {
-  var m = str.match(/[aeiou]/gi)
-  return vowelsCount = (m === null ? 0 : m.length)
+	var m = str.match(/[aeiou]/gi);
+	return (vowelsCount = m === null ? 0 : m.length);
 }
 
 // В решениях после задачи, самая лучшая практика:
